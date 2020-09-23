@@ -1,0 +1,17 @@
+<html>
+    <title>Canvas Demo</title>
+    <body>
+        <!-- this gives the javascript files a canvas to work with -->
+        <div id="canvas_frame">
+            <canvas id="canvas" style="position: absolute; background-color: gray; left:25%; top:25%; width:50%; height:50%;"></canvas>
+
+        </div>
+
+        <!-- this tell the page where to find the javascript file -->
+        <script type="text/javascript" src="{{ url_for('static', filename='canvas_example.js')}}"></script>
+
+        
+
+    </body>    
+
+</html>
